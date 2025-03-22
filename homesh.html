@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homesh - Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(circle at top, #0f0f0f, #1a1a1a);
+      color: #f0f0f0;
+    }
+    header {
+      background: linear-gradient(to right, #000000, #434343);
+      color: #f5c518;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    }
+    .profile {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .profile img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #f5c518;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    }
+    .quote {
+      margin-top: 1rem;
+      font-style: italic;
+      color: #ccc;
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #f0f0f0;
+      background: #f5c518;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      transition: transform 0.2s, background 0.3s;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    }
+    nav a:hover {
+      transform: scale(1.05);
+      background: #ffd700;
+      color: #000;
+    }
+    section {
+      background-color: rgba(255, 255, 255, 0.05);
+      margin: 1rem;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    }
+    section h2 {
+      color: #f5c518;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: linear-gradient(to right, #000000, #434343);
+      color: #f5c518;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Homesh</header>
+
+  <section class="profile">
+    <img src="homy2.jpg" alt="Homesh" />
+    <p class="quote">"Dreams are not what you see in your sleep, dreams are things which do not let you sleep." - CR7</p>
+  </section>
+
+  <nav>
+    <a href="#details">My Details</a>
+    <a href="#journey">My Journey</a>
+    <a href="#destination">My Destination</a>
+  </nav>
+
+  <section id="details">
+    <h2>My Details</h2>
+    <p>Write about yourself here...</p>
+  </section>
+
+  <section id="journey">
+    <h2>My Journey</h2>
+    <p>Share your story, experiences, and growth here...</p>
+  </section>
+
+  <section id="destination">
+    <h2>My Destination</h2>
+    <p>Talk about your goals, ambitions, and what lies ahead...</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Homesh. All rights reserved.
+  </footer>
+</body>
+</html>
